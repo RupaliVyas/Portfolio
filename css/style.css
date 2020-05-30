@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -32,7 +32,14 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1em;
+  font-size: 20px;
+ }
+
+ .workp {
+   margin-bottom: 1em;
+   font-size: 15px;
+ }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -235,7 +242,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 1em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -380,8 +387,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 1em;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,8 +401,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 1em;
+      padding-bottom: 1em; } }
 
 .author-img {
   background-size: cover;
@@ -405,7 +412,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -420,7 +427,7 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -539,6 +546,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
+
   margin-left: -20px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
@@ -600,7 +608,9 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 500; }
+  font-weight: 500;
+  line spacing:normal;
+ }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
@@ -614,7 +624,7 @@ body.offcanvas {
   font-size: 16px; }
 
 .services {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 1.5em;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -624,7 +634,7 @@ body.offcanvas {
   border-bottom: 2px solid #2c98f0; }
   .services .icon2 {
     display: block;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
     .services .icon2 i {
       font-size: 30px;
       color: #2c98f0; }
@@ -692,7 +702,7 @@ body.offcanvas {
       display: table-cell;
       vertical-align: middle; }
   .services .desc {
-    margin-top: 60px; }
+    margin-top: 50px; }
     .services .desc h3 {
       font-size: 16px;
       font-weight: 700;
@@ -844,7 +854,7 @@ body.offcanvas {
       padding: 0; }
     .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
@@ -858,6 +868,11 @@ body.offcanvas {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
 
+
+
+
+
+
 .blog-entry {
   width: 100%;
   float: left;
@@ -869,6 +884,7 @@ body.offcanvas {
   .blog-entry .blog-img {
     width: 100%;
     float: left;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -984,7 +1000,7 @@ body.offcanvas {
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
-      margin-bottom: 15px; }
+      margin-bottom: 10px; }
       .project .desc h3 a {
         color: #fff; }
     .project .desc span {
@@ -1426,4 +1442,4 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 0; }
+  opacity:0; }
